@@ -4,7 +4,7 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
-const name = 'Fabiola'
+const name = 'Fabiola A'
 export const siteTitle = 'Next.js Sample Website'
 // const myLoader = ({ src, width, quality }) => {
 //   return `https://objective-beaver-20aaff.netlify.app/${src}?w=${width}&q=${quality || 75}`
