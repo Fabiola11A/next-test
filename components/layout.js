@@ -6,6 +6,9 @@ import Link from 'next/link'
 
 const name = 'Fabiola'
 export const siteTitle = 'Next.js Sample Website'
+// const myLoader = ({ src, width, quality }) => {
+//   return `https://objective-beaver-20aaff.netlify.app/${src}?w=${width}&q=${quality || 75}`
+// }
 
 export default function Layout({ children, home }) {
   return (
@@ -29,6 +32,7 @@ export default function Layout({ children, home }) {
         {home ? (
           <>
             <Image
+            // loader={myLoader}
               priority
               src="/images/profile.jpg"
               className={utilStyles.borderCircle}
@@ -43,6 +47,7 @@ export default function Layout({ children, home }) {
             <Link href="/">
               <a>
                 <Image
+                // loader={myLoader}
                   priority
                   src="/images/profile.jpg"
                   className={utilStyles.borderCircle}
